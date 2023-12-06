@@ -17,3 +17,11 @@
     justify-content: flex-end;
     gap: 25px;
 }
+.header_cart{
+    display: flex;
+}
+.header_cart .cart_img{
+    width: 30px;
+    height: 25px;
+    margin-right: 5px;
+}

@@ -10,6 +10,8 @@ import Image6 from './images/img4.jpeg';
 
 function Home(){
     return(
+        <div>
+            <div className="title">Watch Product</div>
         <div className="home">
             
             <div>
@@ -54,6 +56,7 @@ function Home(){
                 />
             </div>
              
+        </div>
         </div>
     )
 }
