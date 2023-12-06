@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    width:100%;
+    background-color: darkkhaki;
+    color: white;
+    text-align: end;
+    padding: 15px;
+    font-size: large;
+    font-weight: bolder;
+}
+.header_end{
+    margin-right: 40px;
+}
