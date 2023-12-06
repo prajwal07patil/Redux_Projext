@@ -10,7 +10,7 @@ function Product({id,title,price,image}){
         <div className="product">
             <h4>{title}</h4>
             <p>{price}</p>
-            <img src={image}></img>
+            <img src={image} alt="image"></img>
             <Button onClick={() => dispatch(addtocard(id,title,price,image))} label="Add to Card" />
         </div>
     )
