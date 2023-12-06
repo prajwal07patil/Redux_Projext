@@ -15,7 +15,7 @@ function Checkout(){
             {card.card.map(item =>{
                 return(
                     <div className="checkout_product">
-                    <img src={item.image} alt="image1"></img>
+                    <img src={item.image} alt=""></img>
                     <div className="product_info">
                         <h4>{item.title}</h4>
                         <p>{item.price}</p>
