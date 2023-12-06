@@ -11,7 +11,7 @@ function Checkout(){
     return(
         <div className="checkout">
             <div className="checkout_items">
-                <h2>Your Shooping Card</h2>
+                <h2>Your Shooping Crat</h2>
             {card.card.map(item =>{
                 return(
                     <div className="checkout_product">
@@ -19,7 +19,7 @@ function Checkout(){
                     <div className="product_info">
                         <h4>{item.title}</h4>
                         <p>{item.price}</p>
-                        <Button onClick={() => dispatch(removefromcard(item.id))} label="Remove from Crad" />
+                        <Button onClick={() => dispatch(removefromcard(item.id))} label="Remove from Crat" />
                     </div>
                     </div>
                 )

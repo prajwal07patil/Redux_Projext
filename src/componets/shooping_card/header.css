@@ -13,4 +13,7 @@
 }
 .header_end{
     margin-right: 40px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
 }

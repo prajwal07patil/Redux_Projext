@@ -11,6 +11,7 @@ import Image6 from './images/img4.jpeg';
 function Home(){
     return(
         <div className="home">
+            
             <div>
             <Product 
                 id="1"

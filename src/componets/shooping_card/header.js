@@ -7,9 +7,12 @@ function Header(){
     return(
         <div className="header">
             <div className="header_end">
+                <div>Home</div>
+                <div>                
                 <Link to="/checkout" style={{textDecoration:"none", color:"white"}}>
-                <span>Card <strong>{card.card.length}</strong></span>
+                <span>Cart <strong>{card.card.length}</strong></span>
                 </Link>
+                </div>
             </div>
         </div>
     )
