@@ -8,9 +8,6 @@ function SubTotal(){
     const card = useSelector(state => state.card)
     return(
         <div className="subtotal">
-            <Link to="/">
-            <Button className="backbtn" label="Back"/>
-            </Link>
             <div className="subtotal_area">
                 <p>Subtotal ({card.card.length} items) : ${getTotal(card.card)} </p>
                 <Button label="Proceed to Checkout"/>

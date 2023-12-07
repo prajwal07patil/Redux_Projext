@@ -25,3 +25,6 @@
     height: 25px;
     margin-right: 5px;
 }
+.header a:hover {
+    color: white;
+}

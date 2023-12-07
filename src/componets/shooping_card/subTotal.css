@@ -19,3 +19,8 @@ margin-top: 10px;
     font-size: medium;
     margin-bottom: 5px;
 }
+.subtotal_area .p-button:enabled:hover, .p-button:not(button):not(a):not(.p-disabled):hover {
+    background: orange;
+    color: #ffffff;
+    border-color: orange;
+}
